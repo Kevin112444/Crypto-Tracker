@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    >
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="-60sp"
+                android:layout_height="250dp"
+                android:src="@drawable/binancelogo"
+                android:id="@+id/coinPic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/priceContent"
+                android:textSize="40sp"
+                android:layout_marginTop="-50sp"
+                android:typeface="monospace"
+                android:text = " $39367 "
+                android:textColor = "#006400"
+                android:gravity="center"
+                android:layout_below="@+id/coinPic"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/platformTitle"
+                android:textSize="25sp"
+                android:typeface="monospace"
+                android:textColor="#f2a900"
+                android:text = "\nOFFERED ON "
+                android:textStyle="bold|italic"
+                android:gravity="left"
+                android:layout_below="@+id/priceContent" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="-10sp"
+                android:layout_marginLeft="-200sp"
+                android:layout_height="130sp"
+                android:src="@drawable/coinbaselogo"
+                android:id="@+id/coinbasePic"
+                android:layout_below="@+id/platformTitle" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200sp"
+                android:layout_marginLeft="190sp"
+                android:layout_marginTop="-165sp"
+                android:src="@drawable/binanceuslogo"
+                android:id="@+id/binanceusPic"
+                android:layout_below="@+id/coinbasePic" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_marginLeft="-210sp"
+                android:layout_marginTop="0sp"
+                android:src="@drawable/gateio"
+                android:id="@+id/gateioPic"
+                android:layout_below="@+id/coinbasePic" />
+
+
+            <ImageView
+                android:id="@+id/CoinmamaPic"
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                android:layout_below="@+id/coinbasePic"
+                android:layout_marginLeft="180sp"
+                android:layout_marginTop="-41dp"
+                android:src="@drawable/kucoin" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/backgroundTitle"
+                android:typeface="monospace"
+                android:text="BACKGROUND "
+                android:textColor="#f2a900"
+                android:textSize="35sp"
+                android:gravity="center_vertical"
+                android:textStyle="bold|italic"
+                android:layout_below="@+id/CoinmamaPic"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/backgroundContent"
+                android:typeface="monospace"
+                android:text="     Binance was launched in 2019 and is the world's biggest trading cryptocurrency based on its trading volume. Through its online trading platform, traders can exchange a variety of cryptocurrencies.
+                \n     Binance is also a great place where users have the ability to store their electronic investments as well as make interest on their crypto. Binance provides a low trading fee as well as is known for fast trading performance.
+"
+                android:textSize="23sp"
+                android:textStyle="bold|italic"
+                android:gravity="left"
+                android:layout_below="@+id/backgroundTitle"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/trendTitle"
+                android:text="TREND"
+                android:textSize="35sp"
+                android:textColor="#f2a900"
+                android:gravity="center_vertical"
+                android:textStyle="bold|italic"
+                android:layout_below="@+id/backgroundContent"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/trendContent"
+                android:typeface="monospace"
+                android:text=" Binance has had a very positive trend since its launch. When it first launched it was only $0.10. However, the price now is in the hundreds.
+                \n     Over the 2 years since its launch, it has definitely shown to be profitable. Though the increase has been relatively steady over the past few years, there was a drastic upward trend starting in 2021."
+                android:textSize="20sp"
+                android:textStyle="bold|italic"
+                android:gravity="left"
+                android:layout_below="@+id/trendTitle"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/riskTitle"
+                android:text="RISK"
+                android:textColor="#f2a900"
+                android:typeface="monospace"
+                android:textSize="35sp"
+                android:gravity="center_vertical"
+                android:textStyle="bold|italic"
+                android:layout_below="@+id/trendContent"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/riskContent"
+                android:typeface="monospace"
+                android:text= "     Since there is no government or banks in charge and anyone can be in control, there is no regulation.
+                \n    Traditionally, tracking stolen money or cyber theft is relatively straightforward. However, if one is hacked, there wouldn't really be a way to track stolen bitcoins.
+                \n    Another point to note is that Bitcoin prices aren't exactly stable and it's often fluctuating. The market is very unpredictable. Prices can drastically change in a few minutes or days even. Young market and Bitcoin has only been available for 10 years or so. The future of bitcoin is unknown."
+                android:textSize="23sp"
+                android:textStyle="bold|italic"
+                android:gravity="left"
+                android:layout_below="@+id/riskTitle"
+                />
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

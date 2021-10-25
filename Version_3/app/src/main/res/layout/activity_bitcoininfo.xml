@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    >
+
+
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/blogo"
+                android:id="@+id/coinPic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/titleWindow"
+                android:text="BITCOIN"
+                android:typeface="monospace"
+                android:textSize="40sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_below="@+id/coinPic"
+
+                 />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/priceContent"
+                android:textSize="40sp"
+                android:typeface="monospace"
+                android:text = " $39367 "
+                android:textColor = "#006400"
+                android:gravity="center"
+                android:layout_below="@+id/titleWindow"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/platformTitle"
+                android:textSize="25sp"
+                android:typeface="monospace"
+                android:textColor="#f2a900"
+                android:text = "\nOFFERED ON "
+                android:textStyle="bold|italic"
+                android:gravity="left"
+                android:layout_below="@+id/priceContent" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="-10sp"
+                android:layout_marginLeft="-180sp"
+                android:layout_height="150sp"
+                android:src="@drawable/coinbaselogo"
+                android:id="@+id/coinbasePic"
+                android:layout_below="@+id/platformTitle" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180sp"
+                android:layout_marginLeft="190sp"
+                android:layout_marginTop="-160sp"
+                android:src="@drawable/etoro"
+                android:id="@+id/etoroPic"
+                android:layout_below="@+id/coinbasePic" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="120sp"
+                android:layout_marginLeft="-180sp"
+                android:layout_marginTop="-20sp"
+                android:src="@drawable/robinhoodlogo"
+                android:id="@+id/RobinhoodPic"
+                android:layout_below="@+id/coinbasePic" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="230sp"
+                android:layout_marginLeft="220sp"
+                android:layout_marginTop="-75sp"
+                android:src="@drawable/coinmamalogo"
+                android:id="@+id/CoinmamaPic"
+                android:layout_below="@+id/coinbasePic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="-20sp"
+                android:id="@+id/backgroundTitle"
+                android:typeface="monospace"
+                android:text="BACKGROUND "
+                android:textColor="#f2a900"
+                android:textSize="35sp"
+                android:gravity="center_vertical"
+                android:textStyle="bold|italic"
+                android:layout_below="@+id/CoinmamaPic"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/backgroundContent"
+                android:typeface="monospace"
+                android:text="     Cryptocurrency is digital currency that is not tied to a physical form like cash is. It can be used like cash to purchase goods and services, paired with strong cryptography to secure transactions. Bitcoin was created by Satoshi Nakamoto (an anonymous group/person) and is one of the world’s most famous and largely adopted crypto using Blockchain technology.
+                \n     Bitcoin is mined, which is a record-keeping service to keep the blockchain complete and consistent. Bitcoin is traded for profit, used as currency, or held for the sake of personal idealogies such as decentralization.    \n"
+                android:textSize="23sp"
+                android:textStyle="bold|italic"
+                android:gravity="left"
+                android:layout_below="@+id/backgroundTitle"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/trendTitle"
+                android:text="TREND"
+                android:textSize="35sp"
+                android:textColor="#f2a900"
+                android:gravity="center_vertical"
+                android:textStyle="bold|italic"
+                android:layout_below="@+id/backgroundContent"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/trendContent"
+                android:typeface="monospace"
+                android:text=" WEEK OF JULY 15- JULY 22
+                \n \n This week, there was a downward trend. The week started off with high prices however, there was a downward trend and prices fell on July 19th and 20th. From the 20th, there has been an upward trend and prices are going back to the same as of the 15th.
+                \n \n TREND OF 1 MONTH:
+                \n \n The Bitcoin market has had its ups and downs. The market spiked on the 29th of June. A similar trend was seen within the whole month although there were several downfalls and increases too. \n"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"
+                android:gravity="left"
+                android:layout_below="@+id/trendTitle"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/riskTitle"
+                android:text="RISK"
+                android:textColor="#f2a900"
+                android:typeface="monospace"
+                android:textSize="35sp"
+                android:gravity="center_vertical"
+                android:textStyle="bold|italic"
+                android:layout_below="@+id/trendContent"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/riskContent"
+                android:typeface="monospace"
+                android:text= "     Since there is no government or banks in charge and anyone can be in control, there is no regulation.
+                \n    Traditionally, tracking stolen money or cyber theft is relatively straightforward. However, if one is hacked, there wouldn't really be a way to track stolen bitcoins.
+                \n    Another point to note is that Bitcoin prices aren't exactly stable and it's often fluctuating. The market is very unpredictable. Prices can drastically change in a few minutes or days even. Young market and Bitcoin has only been available for 10 years or so. The future of bitcoin is unknown."
+                android:textSize="23sp"
+                android:textStyle="bold|italic"
+                android:gravity="left"
+                android:layout_below="@+id/riskTitle"
+                />
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

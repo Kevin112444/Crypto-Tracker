@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:src="@drawable/elogo"
+                android:id="@+id/coinPic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/titleWindow"
+                android:text="Etherium"
+                android:textSize="35sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_below="@+id/coinPic"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/priceContent"
+                android:textSize="40sp"
+                android:typeface="monospace"
+                android:text = " $39367 "
+                android:textColor = "#006400"
+                android:gravity="center"
+                android:layout_below="@+id/titleWindow"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/platformTitle"
+                android:textSize="25sp"
+                android:typeface="monospace"
+                android:textColor="#f2a900"
+                android:text = "\nOFFERED ON "
+                android:textStyle="bold|italic"
+                android:gravity="left"
+                android:layout_below="@+id/priceContent" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="-10sp"
+                android:layout_marginLeft="-180sp"
+                android:layout_height="120sp"
+                android:src="@drawable/coinbaselogo"
+                android:id="@+id/coinbasePic"
+                android:layout_below="@+id/platformTitle" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_marginLeft="175sp"
+                android:layout_marginTop="-100sp"
+                android:src="@drawable/krakenlogo"
+                android:id="@+id/etoroPic"
+                android:layout_below="@+id/coinbasePic" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_marginLeft="-180sp"
+                android:layout_marginTop="0sp"
+                android:src="@drawable/robinhoodlogo"
+                android:id="@+id/RobinhoodPic"
+                android:layout_below="@+id/coinbasePic" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="230sp"
+                android:layout_marginLeft="200sp"
+                android:layout_marginTop="-65sp"
+                android:src="@drawable/coinmamalogo"
+                android:id="@+id/CoinmamaPic"
+                android:layout_below="@+id/coinbasePic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="-20sp"
+                android:id="@+id/backgroundTitle"
+                android:typeface="monospace"
+                android:text="BACKGROUND "
+                android:textColor="#f2a900"
+                android:textSize="35sp"
+                android:gravity="center_vertical"
+                android:textStyle="bold|italic"
+                android:layout_below="@+id/CoinmamaPic"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/backgroundContent"
+                android:typeface="monospace"
+                android:text="     Ethereum was launched 6 years ago in 2015. Bitcoin has been known to be the first biggest cryptocurrency whereas Ethereum is the second biggest. Just like Bitcoin it isn’t controlled by banks or the government and is a way to send, receive, and store money.
+                \n     Ethereum is known to be more flexible than Bitcoin and its blockchain allows anyone to build applications. The advantage of this network is that applications can be programmed easily and without any restrictions of third parties or censorship. These applications are immutable upon publishing and allow users to bypass traditional intermediaries like brokerages, exchanges or banks.\n
+"
+                android:textSize="23sp"
+                android:textStyle="bold|italic"
+                android:gravity="left"
+                android:layout_below="@+id/backgroundTitle"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/trendTitle"
+                android:text="TREND"
+                android:textSize="35sp"
+                android:textColor="#f2a900"
+                android:gravity="center_vertical"
+                android:textStyle="bold|italic"
+                android:layout_below="@+id/backgroundContent"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/trendContent"
+                android:typeface="monospace"
+                android:text=" WEEK OF JULY 15- JULY 22
+                \n \n This week, there was a downward trend. The week started off with high prices however, there was a downward trend and prices fell on July 19th and 20th. From the 20th, there has been an upward trend and prices are going back to the same as of the 15th.
+                \n \n TREND OF 1 MONTH:
+                \n \n The Bitcoin market has had its ups and downs. The market spiked on the 29th of June. A similar trend was seen within the whole month although there were several downfalls and increases too. \n"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"
+                android:gravity="left"
+                android:layout_below="@+id/trendTitle"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/riskTitle"
+                android:text="RISK"
+                android:textColor="#f2a900"
+                android:typeface="monospace"
+                android:textSize="35sp"
+                android:gravity="center_vertical"
+                android:textStyle="bold|italic"
+                android:layout_below="@+id/trendContent"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/riskContent"
+                android:typeface="monospace"
+                android:text= "     At times, Ethereum has not been able to meet demands. The only way they can often meet demands is by charging high charges and slowing down the transactions. Because of this, prices change drastically and there is a possibility of there being a big drastic fall once demand dies down.
+                \n     Not only that, it has only been 6 years since Ethereum was launched. As such, it is very new still. It is updated relatively frequently because it is a new network and problems appear occasionally.
+                \n     Hacking is an issue and a big risk. The Ethereum network could be hacked since it is not as secure as bitcoin's blockchain. "
+                android:textSize="23sp"
+                android:textStyle="bold|italic"
+                android:gravity="left"
+                android:layout_below="@+id/riskTitle"
+                />
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

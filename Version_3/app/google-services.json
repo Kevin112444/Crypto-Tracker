@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "234725683393",
+    "project_id": "cryptotre-b4476",
+    "storage_bucket": "cryptotre-b4476.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234725683393:android:63a225298e8d2421cee440",
+        "android_client_info": {
+          "package_name": "com.example.finalversion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234725683393-p0g379pqi2bt07fdgl3cvpv767h27pfs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt4gd9zAc69ZOzia8C4oaK3_oCYVypdbw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234725683393-p0g379pqi2bt07fdgl3cvpv767h27pfs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
